@@ -3,7 +3,7 @@ import urllib
 import httplib
 import numba
 
-print "READ README FIRST PLEASE"
+print ("READ README FIRST PLEASE")
 print "you have to trigger the password recovery at https://www.facebook.com/login/identify/?ctx=recover"
 connection = httplib.HTTPSConnection("www.facebook.com", 443)
 user = raw_input("Enter user numerical ID: ")
